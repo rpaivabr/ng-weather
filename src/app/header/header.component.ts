@@ -20,7 +20,7 @@ export class HeaderComponent implements OnInit {
   }
 
   addTimesClicked(): void {
-    this.timesClicked += 2;
+    this.timesClicked += 1;
   }
 
   private calculatedValue(): string {
